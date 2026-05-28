@@ -43,7 +43,7 @@ merger_simulator/
 
 ## Example Usage
 
-Look into [example.ipynb](merger_simulator/example.ipynb) to see how to use the package to simulate a merger (with fictional data) using a nested logit demand model.
+Look into [example.ipynb](example.ipynb) to see how to use the package to simulate a merger (with fictional data) using a nested logit demand model.
 
 ## Quick Start: Nested Logit (Share-Based)
 
