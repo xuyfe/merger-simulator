@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "merger-simulator"
+version = "0.1.0"
+description = "Bertrand-Nash merger simulation with pluggable demand models"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scipy>=1.10",
+    "linearmodels>=5.0",
+    "statsmodels>=0.14",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "jupyter"]
+
+[tool.setuptools.packages.find]
+include = ["merger_simulator*"]
